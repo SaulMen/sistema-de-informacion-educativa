@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30816CEF-FD4D-0A27-8BC9-5A23ECBB9085" name="CIUDADANO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>6297F76C-A384-44A6-8294-26DF90618013</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dpi" id="39C6D85C-8909-C822-B22C-52AA244812BA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>170B00A6-5F4C-7A3A-E31D-253A0037DC41</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="42E237E5-4DA8-BBAB-8275-821835B466E8">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>3825599E-D85E-D92D-BD27-853D2BFC6BB2</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="3F909883-10C6-34EE-7B8F-3DC72BB37177">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>44D0AC80-6450-14E7-825B-715713E1B83E</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="066967CB-7DDB-F9B7-CF37-888931835B84">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>0E83373C-8552-3D7D-1570-21B5CDF03C09</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="267DE810-AEED-B963-FCD5-28FF403589B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>BA3A26B0-DF7C-B44E-857D-71A5CEE7D93C</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="50DDDE56-52E6-5CC2-BFEF-5AC356A043C6">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>B37764CC-624B-68DC-23DF-7902123367F8</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="0BDC7A22-42B0-D76A-72D5-57C13F945D93">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>28BED490-B429-0FC9-7739-AAB823CDB5F6</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B62FA49B-FFF5-8145-0FEA-7F135CBDB98D" name="CIUDADANO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>413E084C-E850-5E5B-2F58-1E19484A751E</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39C6D85C-8909-C822-B22C-52AA244812BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

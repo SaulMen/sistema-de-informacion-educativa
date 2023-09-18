@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A8E174D-383B-9FE7-19C1-F9815BCC3E7F" name="PARTIDO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>8A75269C-FFFE-676A-EDD2-CDBF94217F8C</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partido" id="CD4F6401-4381-5986-8382-D8632EF84608">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>C8EA6D4D-784F-E4E7-F560-B78D4FC5159E</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_partido" id="4DD96E17-EAC1-6A93-0B20-B356E497B695">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>61C2BB36-F465-59FC-AB03-00352F16F967</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siglas" id="F638111D-294F-23BA-E5A6-707B90354FC4">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>527E96BD-889F-6A7A-D922-65E11F1EDBCA</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fundacion" id="2C71C34E-6B92-8F43-B922-858E2CF75979">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>C38256DC-BA94-718B-06A4-3EB3D7BE4557</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBF3D60D-5608-EB3E-945C-A2FA19327C73" name="PARTIDO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:35:09 UTC</createdTime>
+<generatorID>26CF95AC-22B7-F49E-CBD0-F358A5FCA3F2</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD4F6401-4381-5986-8382-D8632EF84608"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AAC1E36-6E26-0395-B251-04FE168D4C9B" name="CARGO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-06 21:33:19 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cargo" id="BB0BE293-7255-BF7E-5268-975FE253D2F0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:19:09 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="A4181749-F22B-30BC-D863-B90870936CEE">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:19:30 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2431F326-87A7-C060-52E1-34C14492C18F" name="CARGO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:19:27 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB0BE293-7255-BF7E-5268-975FE253D2F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

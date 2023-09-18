@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C16337B-9E27-3C32-DA04-30118C8061BA" name="MESA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-06 21:33:08 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mesa" id="12A30A05-8179-5FA0-D276-33D91BE6B301">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:21:43 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_departamento" id="BBEFDE81-E0B0-0205-F082-6EA33F2FB45C">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:26:40 UTC</createdTime>
+<generatorID>8AAADB08-2D58-B12C-6C4F-B43843965805</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<referedAttribute>22FBAF6C-4B4E-5786-2FF6-E9F62E66C753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F369E87C-1DA0-9BB5-87D8-9D52F1A8ED48" name="MESA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:22:12 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12A30A05-8179-5FA0-D276-33D91BE6B301</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

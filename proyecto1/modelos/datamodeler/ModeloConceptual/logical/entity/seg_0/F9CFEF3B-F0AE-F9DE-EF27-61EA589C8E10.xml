@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9CFEF3B-F0AE-F9DE-EF27-61EA589C8E10" name="DETALLE_VOTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-06 21:35:02 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle" id="AB39F3B3-BD18-727B-BED7-ECB965238EBB">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:25:23 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_candidato" id="D0227C36-984C-C0E2-4BBE-F77316F99AC7">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:28:45 UTC</createdTime>
+<generatorID>4B5944AA-89A0-01B4-E2B0-267255F7D043</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<referedAttribute>7E418D3D-F592-6606-6BA1-572A7F8175EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voto" id="E31FD57D-2C50-7D48-0D97-CF98CDC427F9">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:28:50 UTC</createdTime>
+<generatorID>54823267-2309-9895-4337-C2E772FFD967</generatorID>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<referedAttribute>6AB9F2FE-B468-0B98-4D4B-2C64732AF4FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85EAE4FB-111A-22EA-0A76-4EF364D9FC95" name="DETALLE_VOTO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-09-07 04:25:35 UTC</createdTime>
+<ownerDesignName>ModeloConceptual</ownerDesignName>
+<engineerTo>
+<item key="DBED97DB-F4FA-54FE-B358-992BA0E9E686" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB39F3B3-BD18-727B-BED7-ECB965238EBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
