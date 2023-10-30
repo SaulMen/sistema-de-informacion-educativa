@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD38A01A-BB85-ECA6-6C2E-501CF02CBFA3" name="HABILITAR_CURSO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 00:58:16 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_habilitar" id="0FDE86E8-6ABD-A4BC-1AB3-FB67833959DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:37:10 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="D5A42D0E-F9AD-48CF-E86F-AF6D732568B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:37:21 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupo_maximo" id="8F729C16-B1CB-A110-4244-A3D539E43B18">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:37:38 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="6C6A99D0-965D-C00F-20B3-F9C96F61C3A5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:37:57 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_docente" id="9BEC9CA4-D236-FFFA-8DCD-0983A337FF4E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:24:41 UTC</createdTime>
+<generatorID>4905246E-7E8B-BB43-DF60-4599C58136CC</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>4A7650FB-5FD4-5F50-FAAA-A01DF277C7F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C595FF1-5BEC-5F4E-BF29-F6C25C6A39C8" name="HABILITAR_CURSO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:37:20 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FDE86E8-6ABD-A4BC-1AB3-FB67833959DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

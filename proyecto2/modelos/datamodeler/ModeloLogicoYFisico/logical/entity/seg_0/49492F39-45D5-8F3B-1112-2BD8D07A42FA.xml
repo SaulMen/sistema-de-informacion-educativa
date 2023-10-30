@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49492F39-45D5-8F3B-1112-2BD8D07A42FA" name="HORARIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 00:58:10 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_horario" id="866F44E6-5B68-3008-CF24-97A0C01F655C">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:38:34 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia" id="95B28C9F-209C-896D-7906-FDE3B89D3B5E">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:38:48 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario" id="A0CB8880-F250-24E0-A58E-7D300B2403D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:39:05 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habilitar" id="5C00057A-F6BF-344C-91EB-28E33F694AA0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:27:13 UTC</createdTime>
+<generatorID>FA82F503-66E5-6815-BD09-F13DEE5B4AA8</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>0FDE86E8-6ABD-A4BC-1AB3-FB67833959DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86B9F233-D57F-2FFC-CFE1-D4D559530D6B" name="HORARIO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:38:47 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>866F44E6-5B68-3008-CF24-97A0C01F655C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

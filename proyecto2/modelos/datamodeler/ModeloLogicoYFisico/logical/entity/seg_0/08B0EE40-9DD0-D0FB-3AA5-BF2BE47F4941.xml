@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08B0EE40-9DD0-D0FB-3AA5-BF2BE47F4941" name="NOTA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 00:58:42 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nota" id="09E556AD-6444-481B-4AF7-604BED693330">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:48:30 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="07304778-5C9F-D7ED-E200-2ACB4C905CFC">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:48:41 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="FFF6854F-8659-1E4D-2720-464E8742AA65">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:48:55 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="344EC131-01A8-B422-1172-25BDEB1A55E4">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:49:05 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="6827FF17-382F-3925-D540-133034E67B85">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:30:30 UTC</createdTime>
+<generatorID>187C540A-B0F8-E39B-0BE7-F223F822B780</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>16C23770-5925-72FD-C3BE-2A4E79217335</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carnet" id="D02A6B1A-90B2-311D-60CC-EF0B8B8F2199">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:30:41 UTC</createdTime>
+<generatorID>8C72999A-0618-982F-DD59-CC702BE33BFB</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>25FEB248-0248-6ED7-E953-0979F95B6B1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F114ADD-43CA-9FF2-04AE-81B696074C85" name="NOTA PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:48:40 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09E556AD-6444-481B-4AF7-604BED693330</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

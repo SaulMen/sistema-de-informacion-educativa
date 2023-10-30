@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C38CFD6F-8135-49E2-6B7E-92B02EC0AAEF" name="CURSO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 00:57:52 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_curso" id="16C23770-5925-72FD-C3BE-2A4E79217335">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:30:21 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="CF2AB307-393D-279D-7AEB-12B6B9B70D0C">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:36:30 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="EBBED946-D8E4-10E8-B145-0EA39CD96613">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:30:28 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creditos_necesarios" id="FE77BAE5-F83C-5FBB-DF9E-3FCBAE62F839">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:30:45 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creditos_dados" id="02843CD0-67AE-207D-FF7A-FF348FAC18AD">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:31:21 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obligatorio" id="DE65E8CC-BE72-BF68-3432-F49D2CE52193">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:31:35 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carrera" id="A83EE5C7-C1EB-DA58-20CD-9C02852D0C8B">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:21:41 UTC</createdTime>
+<generatorID>07DCA6BE-7D70-020B-02E0-B7C4CF499373</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>58EADC53-D7CB-E1AC-2097-C49DFA279D30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habilitar" id="FCBE3F49-0B53-EAA2-64ED-C53D16D5CA6D">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:22:46 UTC</createdTime>
+<generatorID>8DEC345A-6DFA-F11A-FE72-A78E4A415B78</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<referedAttribute>0FDE86E8-6ABD-A4BC-1AB3-FB67833959DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E976FCD-CE10-237F-F33D-FC4B3BD52233" name="CURSO PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 02:30:26 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<engineerTo>
+<item key="6AE2EC9D-08CB-390D-E41B-A35EC95A7C93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16C23770-5925-72FD-C3BE-2A4E79217335</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

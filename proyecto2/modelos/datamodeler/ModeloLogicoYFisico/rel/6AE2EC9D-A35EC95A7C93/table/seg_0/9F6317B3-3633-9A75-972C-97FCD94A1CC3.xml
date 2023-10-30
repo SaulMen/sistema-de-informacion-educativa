@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F6317B3-3633-9A75-972C-97FCD94A1CC3" name="ACTA">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>4899686A-70BE-8EC4-DA3E-59A2E3729876</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_acta" id="08EF0D1A-C96D-87D3-808F-6F6B13A37218">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>05D25481-54EF-CA48-4777-09598F653B28</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciclo" id="ED6AC2F4-8732-DD21-1161-6577B3958A93">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>830BFFD0-3B8E-EC66-7B1D-AEF60AADE7C3</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seccion" id="696CC988-8612-19EC-1C2F-EC19A36523FB">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>CBBA90DC-8F65-A45B-5D62-CB5FFAF5B905</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_id_curso" id="0C7EA4D2-BAFD-CD9F-838A-A9087E51982A">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>BDC2ED0D-22D6-10A8-7ACA-CB52FB26AD58</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55FCFDCC-5687-7931-7958-A82620EA127F" referredColumn="3BD3B22B-33CC-70AF-E1E1-867A770676B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B173F55E-4DA5-F1FA-D623-687D8578A8E8" name="ACTA_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>E266F05B-C883-4443-302E-DDEB309E03CA</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08EF0D1A-C96D-87D3-808F-6F6B13A37218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B287B7B3-FB21-76B2-29E8-18920ED87A9C" name="ACTA_CURSO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>D0252300-DABE-1B0F-0D8E-3982800DB161</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C7EA4D2-BAFD-CD9F-838A-A9087E51982A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

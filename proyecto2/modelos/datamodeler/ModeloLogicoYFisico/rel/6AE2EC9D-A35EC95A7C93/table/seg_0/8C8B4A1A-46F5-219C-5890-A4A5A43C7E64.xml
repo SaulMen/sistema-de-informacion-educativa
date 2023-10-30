@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C8B4A1A-46F5-219C-5890-A4A5A43C7E64" name="HORARIO">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>49492F39-45D5-8F3B-1112-2BD8D07A42FA</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_horario" id="CABB3BF6-2964-839B-9F61-AFD703B85D67">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>866F44E6-5B68-3008-CF24-97A0C01F655C</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia" id="00C125C3-0B02-C790-A64A-D5C535077E78">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>95B28C9F-209C-896D-7906-FDE3B89D3B5E</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horario" id="8CB5D984-71CD-633C-0B6E-2A432AC480E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>A0CB8880-F250-24E0-A58E-7D300B2403D5</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HABILITAR_CURSO_id_habilitar" id="74E27CE9-49E6-CB98-925A-71E13DF62274">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>5C00057A-F6BF-344C-91EB-28E33F694AA0</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="086A0406-3691-518D-FC56-6507BE183A84" referredColumn="D8752AC2-0362-AB63-891B-3691E957FC5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDC09E9A-890A-33EB-C99B-FD539CCFF7D3" name="HORARIO_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>86B9F233-D57F-2FFC-CFE1-D4D559530D6B</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CABB3BF6-2964-839B-9F61-AFD703B85D67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38B790BB-52FF-B663-3953-EAA676D3928A" name="HORARIO__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FA82F503-66E5-6815-BD09-F13DEE5B4AA8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="74E27CE9-49E6-CB98-925A-71E13DF62274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0F550CA-8BC3-E791-D717-FBE2C64D33D0" name="HORARIO_HABILITAR_CURSO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2023-10-30 03:33:42 UTC</createdTime>
+<generatorID>FA82F503-66E5-6815-BD09-F13DEE5B4AA8</generatorID>
+<ownerDesignName>ModeloLogicoYFisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E27CE9-49E6-CB98-925A-71E13DF62274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
