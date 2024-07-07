@@ -1,9 +1,10 @@
 <!--# Bases de datos 1
-___
+___ SBD1_Proyectos
 # Proyecto 1 y 2
 ## 201906444!-->
 
 # Sistema de Información Educativa
+____
 
 #### **Acerca de:**
 Este repositorio contiene un proyecto de sistema de información educativa que incluye módulos para la gestión de estudiantes, docentes, cursos y actas finales.
